@@ -1,0 +1,34 @@
+There are multiple ways to incorporate the payment gateway within a website or mobile device. These options vary based upon ease of integration, required resources, features, and additional security.
+Marketplace an API used with NMI customers of <a href="https://durangomerchantservices.com">Durango Merchant Services</a>
+
+Kount
+
+Transaction Request APIs
+Payment API
+The Payment API method is the simplest integration method for both web-based and non web-based payment applications, however, merchants using this integration method should have passed a PCI vulnerability scan before use.
+
+Collect.js
+Collect.js provides access to a popup form which securely captures payment data and generates a "token". The token is then used with the Payment API instead of raw credit card or bank account data. The popup form is technically a seperate page hosted by the gateway, so no payment information touches the merchant's site. This allows merchants to minimize their PCI-compliance footprint, with minimal changes to the customer experience.
+
+Collect Checkout
+Collect Checkout is a hosted checkout page that can be integrated into most web-based payment workflows. The checkout page lives entirely on the gateway’s servers, ensuring that no payment data ever touches your environment.
+
+EMV Chip Card SDK
+The EMV Chip Card SDKs are a set of software development kits, supporting Windows, Linux, iOS and Android, that abstracts the complexities of interfacing directly our supported hardware terminals.
+
+Three-Step Redirect API
+The Three Step Redirect allows for payment processing on the web via an XML-based API. This is an older API and in general is only recommended for merchants who can not use the Payment API with Collect.js for some reason. This method is required when using Verified by Visa/Mastercard SecureCode (Payer Authentication).
+
+Transaction Retrieval API
+Webhooks
+Webhooks allow merchants to receive next-to-real-time notifications of events happening on their account. While the Query API lets integrators “pull” information from the gateway, webhooks “push” information to the integrator.
+
+Query API
+The Query API allows merchants to download a detailed stream of transaction data. This dataset can then be used to create in-house reports and analytics.
+
+Turnkey Shopping Carts
+QuickClick Shopping Cart
+QuickClick is a great option for e-commerce merchants who do not have an IT team or developer on staff. A button-generator is included, which allows merchants to create website links to products and services without any previous development experience.
+
+Third Party Shopping Carts
+There are a number of third party shopping carts that have integrated to the payment gateway. This is the best option for merchants who need a full featured turn-key shopping cart out of the box.
