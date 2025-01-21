@@ -1,0 +1,1 @@
+Durango Merchant Services is a <a href="https://durangomerchantservices.com">High Risk Merchant Account</a> broker that offers a range of payment gateway options and integrations of our payments network. 
